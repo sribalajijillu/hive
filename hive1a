@@ -1,0 +1,18 @@
+select year, job_title, count(job_title) as n from h1b_final where year=2011 and job_title='DATA ENGINEER' group by year, job_title order by n desc limit 1;
+2011	DATA ENGINEER	18
+
+select year, job_title, count(job_title) as n from h1b_final where year=2013 and job_title='DATA ENGINEER' group by year, job_title order by n desc limit 1;
+2012	DATA ENGINEER	32
+
+select year, job_title, count(job_title) as n from h1b_final where year=2013 and job_title='DATA ENGINEER' group by year, job_title order by n desc limit 1;
+2013	DATA ENGINEER	41
+
+select year, job_title, count(job_title) as n from h1b_final where year=2014 and job_title='DATA ENGINEER' group by year, job_title order by n desc limit 1;
+2014	DATA ENGINEER	89
+
+select year, job_title, count(job_title) as n from h1b_final where year=2015 and job_title='DATA ENGINEER' group by year, job_title order by n desc limit 1;
+2015	DATA ENGINEER	160
+
+select year, job_title, count(job_title) as n from h1b_final where year=2016 and job_title='DATA ENGINEER' group by year, job_title order by n desc limit 1;
+2016	DATA ENGINEER	251
+
